@@ -1,0 +1,35 @@
+{
+  "name": "grunt-legacy-log-facade",
+  "description": "Grunt's log-facade methods, as a standalone library.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gruntjs/grunt-legacy-log-facade",
+  "author": {
+    "name": "\"Cowboy\" Ben Alman",
+    "url": "http://benalman.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gruntjs/grunt-legacy-log-facade.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gruntjs/grunt-legacy-log-facade/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "log-facade",
+    "grunt"
+  ],
+  "dependencies": {
+    "grunt-legacy-event-logger": "gruntjs/grunt-legacy-event-logger"
+  }
+}
